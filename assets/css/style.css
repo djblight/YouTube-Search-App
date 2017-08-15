@@ -1,6 +1,11 @@
 
-html {
-    background-image: url("http://static.panoramio.com/photos/large/64052769.jpg");
+
+html { 
+  background: url("http://cdn.charlottesgotalot.com/sites/default/master/files/1411431676-clt-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #video-container {
@@ -13,8 +18,8 @@ html {
     cursor: pointer;
     width: 720px;
     height: 500px;
-    border-color: 3px black;
-    background-color: #00651B;
+    /*border-color: 3px black;
+    background-color: #00651B;*/
     padding-top: 30px;
     padding-left: 15px;
     
@@ -43,13 +48,17 @@ body {
 }
 
 header {
-    background: #818068;
+    background: #696969;
     height: 60px;
     font-size: 40px;
     font-style: Arial sans-serif;
     text-align: center;
     padding-top: 25px;
     color: white;
+}
+
+span {
+    color: red;
 }
 
 #video-container {
@@ -66,7 +75,7 @@ footer {
   clear: both;
   background-color: #818068;
    color: white;
-   padding-top: 40px;
+   padding-top: 30px;
 }
 
 #search-form {
